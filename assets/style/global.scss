@@ -1,0 +1,229 @@
+@import './vars.scss';
+
+h1,
+h2,
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  padding: 7px 0;
+}
+
+h1 {
+  font-size: 2em;
+  /* 2x body copy size = 32px */
+  line-height: 1.25;
+  /* 45px / 36px */
+}
+
+@media (min-width: 43.75em) {
+  h1 {
+    font-size: 2.5em;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 3em;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height and something more appropriate for display headings */
+  }
+}
+
+h2 {
+  font-size: 1.5em;
+  /* 1.625x body copy size = 26px */
+  line-height: 1.15384615;
+  /* 30px / 26px */
+}
+
+@media (min-width: 43.75em) {
+  h2 {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h2 {
+    font-size: 2.25em;
+    /* 2.25x body copy size = 36px */
+    line-height: 1.25;
+  }
+}
+
+h3 {
+  font-size: 1.375em;
+  /* 1.375x body copy size = 22px */
+  line-height: 1.13636364;
+  /* 25px / 22px */
+}
+
+@media (min-width: 43.75em) {
+  h3 {
+    font-size: 1.5em;
+    /* 1.5x body copy size = 24px */
+    line-height: 1.25;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h3 {
+    font-size: 1.75em;
+    /* 1.75x body copy size = 28px */
+    line-height: 1.25;
+  }
+}
+
+h4 {
+  font-size: 1.125em;
+  /* 1.125x body copy size = 18px */
+  line-height: 1.11111111;
+}
+
+@media (min-width: 43.75em) {
+  h4 {
+    line-height: 1.22222222;
+    /* (22px / 18px */
+  }
+}
+
+p,
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+main {
+  padding: $padding;
+}
+
+html {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+//themes
+.theme-contrast {
+  background: #000;
+  color: yellow;
+
+  .button {
+    color: #000;
+    background: yellow;
+  }
+
+  p {
+    color: yellow;
+  }
+
+  path {
+    fill: yellow
+  }
+}
+
+
+.button {
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: $radius;
+  margin: 5px 0;
+  height: 48px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  transition: transform .2s cubic-bezier(.48, .22, .68, 1.34);
+
+  &:hover {
+    transform: scale(1.07);
+
+  }
+}
+
+.button--primary {
+  color: $white;
+}
+
+.button--ghost {
+  background: transparent;
+  border: 1px solid #222;
+  color: #222;
+}
+
+.button--ghost--orange {
+  color: $orange;
+  border-color: $orange;
+}
+
+.button--ghost--rose {
+  color: $rose;
+  border-color: $rose;
+}
+
+.button--ghost--blue {
+  color: $blue;
+  border-color: $blue;
+}
+
+.button--rose {
+  background: $rose;
+}
+
+.button--dark_blue {
+  background: $dark_blue;
+}
+
+.button--orange {
+  background: $orange;
+}
+
+.button--blue {
+  background: $blue;
+}
+
+@media screen and (min-width: 720px) {
+  main {
+    padding: $desktop_padding;
+  }
+}
+
+//transitions
+.slide-up-enter-active {
+  transition: all 0.4s ease-out;
+}
+
+.slide-up-enter,
+.slide-fade-leave-to {
+  transform: translateY(3vh);
+  opacity: 0;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all .2s ease-out;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(3vh)
+}

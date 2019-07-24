@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-font_size_icon">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="font_size_icon" clip-path="url(#clip-font_size_icon)">
+    <rect width="30" height="30" fill="#fff"/>
+    <g id="Group_9" data-name="Group 9" transform="translate(-1616 -1355)">
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="1920" height="152" transform="translate(0 1355)" fill="none"/>
+      <text id="ZAJĘCIA_DLA_SENIORÓW" data-name="ZAJĘCIA DLA
+SENIORÓW" transform="translate(229 1423)" fill="#222" font-size="24" font-family="JosefinSans-Bold, Josefin Sans" font-weight="700"><tspan x="-79.74" y="0">ZAJĘCIA DLA</tspan><tspan x="-69.18" y="29">SENIORÓW</tspan></text>
+      <g id="Group_6" data-name="Group 6" transform="translate(109.895 631.758)">
+        <rect id="Rectangle_12" data-name="Rectangle 12" width="227.636" height="51.005" rx="2" transform="translate(664.071 824.247) rotate(-180)" fill="#d13879"/>
+        <text id="O_zajęciach" data-name="O zajęciach" transform="translate(501.105 806.242)" fill="#fff" font-size="18" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">O zajęciach</tspan></text>
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="227.636" height="51.005" rx="2" transform="translate(908.99 824.247) rotate(-180)" fill="#f27a00"/>
+        <text id="Gdzie_jesteśmy" data-name="Gdzie jesteśmy" transform="translate(730.105 806.242)" fill="#fff" font-size="18" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Gdzie jesteśmy</tspan></text>
+        <rect id="Rectangle_14" data-name="Rectangle 14" width="227.636" height="51.005" rx="2" transform="translate(1151.179 824.247) rotate(-180)" fill="#0496c2"/>
+        <text id="Jak_się_zapisać" data-name="Jak się zapisać" transform="translate(976.243 806.351)" fill="#fff" font-size="18" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Jak się zapisać</tspan></text>
+      </g>
+      <g id="Group_8" data-name="Group 8" transform="translate(117.193 1342)">
+        <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(1700.888 118.046) rotate(-180)" fill="none" stroke="#352c60" stroke-width="1.5">
+          <rect width="191.243" height="59.024" rx="6" stroke="none"/>
+          <rect x="0.75" y="0.75" width="189.743" height="57.524" rx="5.25" fill="none"/>
+        </g>
+        <text id="Dzieci" transform="translate(1567.403 99.263)" fill="#382f65" font-size="28" font-family="OpenSans-Light, Open Sans" font-weight="300"><tspan x="0" y="0">Dzieci</tspan></text>
+        <g id="Group_3" data-name="Group 3" transform="translate(1407.929 59)">
+          <text id="A" transform="translate(0 41.316)" fill="#382f65" font-size="19" font-family="OpenSans-Light, Open Sans" font-weight="300"><tspan x="0" y="0">A</tspan></text>
+          <text id="A-2" data-name="A" transform="translate(17.368 47)" fill="#382f65" font-size="44" font-family="OpenSans-Light, Open Sans" font-weight="300"><tspan x="0" y="0">A</tspan></text>
+        </g>
+        <rect id="Rectangle_11" data-name="Rectangle 11" width="56.121" height="53.315" rx="3" transform="translate(1313.913 61.738)"/>
+        <g id="Group_4" data-name="Group 4" transform="translate(1323.033 61.738)">
+          <text id="A-3" data-name="A" transform="translate(0 36.941)" fill="#fcf200" font-size="17" font-family="OpenSans-Light, Open Sans" font-weight="300"><tspan x="0" y="0">A</tspan></text>
+          <text id="A-4" data-name="A" transform="translate(15.433 40)" fill="#fcf200" font-size="37" font-family="OpenSans-Light, Open Sans" font-weight="300"><tspan x="0" y="0">A</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_4-2" data-name="Group 4" transform="translate(6.465 3.198)">
+      <text id="A-5" data-name="A" transform="translate(0 17.201)" fill="#382f65" font-size="7" font-family="OpenSans-Light, Open Sans" font-weight="300"><tspan x="0" y="0">A</tspan></text>
+      <text id="A-6" data-name="A" transform="translate(5.666 19)" fill="#382f65" font-size="18" font-family="OpenSans-Light, Open Sans" font-weight="300"><tspan x="0" y="0">A</tspan></text>
+    </g>
+  </g>
+</svg>
