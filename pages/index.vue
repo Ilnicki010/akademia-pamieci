@@ -1,5 +1,5 @@
 <template>
-  <main class="homeWrapper">
+  <main v-if="loaded" class="homeWrapper">
     <section class="ctaSection">
       <div class="content">
         <h1>
@@ -7,16 +7,16 @@
           korzystających z możliwości swojego umysłu
         </h1>
         <p>
-          Przygotowaliśmy bogatą ofertę szkoleń z technik pamięciowych. Realizujemy je w
-          Uniwersytetach Trzeciego Wieku, Centrach Kultury i w naszej placówce.
+          Seniorów zapraszamy na trening umysłu, dawkę pozytywnej energii i świetną zabawę.
+          <br />Dzieci zapraszamy na zajęcia z ortografii, trening czytania i notowania, techniki pamięciowe, oraz autoprezentację.
         </p>
         <nav class="buttons">
           <nuxt-link to="/seniorzy" class="button button--primary button--dark_blue">Seniorzy</nuxt-link>
-          <nuxt-link to="/" class="button button--primary button--orange">Dzieci</nuxt-link>
+          <nuxt-link to="/dzieci" class="button button--primary button--rose">Dzieci</nuxt-link>
         </nav>
       </div>
-      <img v-if="loaded" src="@/assets/svg/asset.svg" alt="dodatek ozdobny" class="asset" />
-      <contact-info class="contactInfo" />
+      <asset-icon class="asset" />
+      <contact-info class="footer" />
     </section>
   </main>
 </template>
@@ -24,8 +24,9 @@
 <script>
 import contactInfo from '@/components/contactInfo'
 import siteHeaderMenu from '@/components/siteHeaderMenu'
+import assetIcon from '@/assets/svg/asset.svg'
 export default {
-  components: { contactInfo, siteHeaderMenu },
+  components: { contactInfo, siteHeaderMenu, assetIcon },
   data() {
     return {
       loaded: false
@@ -47,6 +48,7 @@ export default {
   position: relative;
   overflow: hidden;
   .ctaSection {
+    position: relative;
     .content {
       h1 {
         line-height: 1;
@@ -62,10 +64,15 @@ export default {
     }
     .asset {
       position: absolute;
-      bottom: -21%;
+      bottom: -35vh;
       right: $padding;
-      width: 20%;
+      width: 16%;
     }
+  }
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: -130px;
   }
 }
 @media screen and (min-width: 720px) {
@@ -79,8 +86,8 @@ export default {
         float: left;
       }
       .asset {
-        width: 12%;
-        right: $desktop_padding;
+        bottom: -50vh;
+        right: 0;
       }
     }
   }

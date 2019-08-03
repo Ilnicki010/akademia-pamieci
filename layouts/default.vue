@@ -1,7 +1,9 @@
 <template>
-  <div v-bind:class="{ 'theme-contrast' : contrastMode }">
-    <site-header-menu :showMenu="false" @changeTheme="contrastModeHandler" />
-    <nuxt />
+  <div>
+    <div>
+      <site-header-menu :showMenu="false" />
+      <nuxt />
+    </div>
   </div>
 </template>
 
@@ -11,15 +13,6 @@
 import siteHeaderMenu from '@/components/siteHeaderMenu'
 export default {
   components: { siteHeaderMenu },
-  methods: {
-    contrastModeHandler(e) {
-      this.contrastMode = e
-    }
-  },
-  data() {
-    return {
-      contrastMode: false
-    }
-  }
+  methods: {}
 }
 </script>

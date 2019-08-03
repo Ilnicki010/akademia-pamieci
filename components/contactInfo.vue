@@ -21,8 +21,6 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/style/vars.scss';
 .contactWrapper {
-  position: absolute;
-  bottom: 0;
   color: $dark_blue;
   font-size: $xx-small;
   display: grid;
@@ -32,8 +30,7 @@ export default {
   grid-template-areas: '. .' '. .' '. .';
   float: left;
   text-align: left;
-  position: absolute;
-  bottom: 50px;
+  margin-top: 20px;
   svg {
     height: 15px;
   }

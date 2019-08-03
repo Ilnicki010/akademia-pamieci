@@ -5,12 +5,12 @@
         <h1>GDZIE JESTEŚMY</h1>
         <div class="adressList">
           <article class="adress">
-            <strong>Nasza placówka</strong>
+            <strong>Leonardo School</strong>
             <p>ul. Jantarowa 13/2 Gdynia Obłuże</p>
-            <p>Zapisy pod numerem: +48 509 203 761</p>
           </article>
           <article class="adress">
-            <strong>Więcej wkrótce...</strong>
+            <strong>ZS-P w Dębogórzu</strong>
+            <p>ul. Pomorska 30 Dębogórze</p>
           </article>
         </div>
       </section>

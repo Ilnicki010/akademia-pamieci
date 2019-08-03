@@ -14,7 +14,10 @@
         </header>
         <div class="courseParts">
           <article class="part part--one">
-            <h2>CZĘŚĆ 1 / SEMESTR 1</h2>
+            <h2>
+              <span>CZĘŚĆ 1 /</span>
+              <span>SEMESTR 1</span>
+            </h2>
             <p>
               Kurs wprowadzający w świat technik pamięciowych skrojony specjalnie dla seniorów.
               Odpowiada na potrzebę radzenia sobie z kłopotami z pamięcią. Rozwija umiejętności
@@ -24,7 +27,10 @@
             </p>
           </article>
           <article class="part part--two">
-            <h2>CZĘŚĆ 2 / SEMESTR 2</h2>
+            <h2>
+              <span>CZĘŚĆ 2 /</span>
+              <span>SEMESTR 2</span>
+            </h2>
             <p>
               Wstęp do Głównego Systemu Pamięciowego, czyli techniki pomagającej zapamiętywać
               liczby. Mnóstwo ciekawych i rozwijających ćwiczeń i wiele okazji do rozbudowania
@@ -32,7 +38,10 @@
             </p>
           </article>
           <article class="part part--one">
-            <h2>CZĘŚĆ 3 / SEMESTR 3</h2>
+            <h2>
+              <span>CZĘŚĆ 3 /</span>
+              <span>SEMESTR 3</span>
+            </h2>
             <p>
               Sposób na zapamiętywanie liczb, czyli Główny System Pamięciowy, to okazja to wielu
               ciekawych ćwiczeń i stymulowania mózgu. Umiejętności zawarte w tej części programu
@@ -40,7 +49,10 @@
             </p>
           </article>
           <article class="part part--two">
-            <h2>CZĘŚC 4 / SEMESTR 4</h2>
+            <h2>
+              <span>CZĘŚĆ 4 /</span>
+              <span>SEMESTR 4</span>
+            </h2>
             <p>
               Poziom mistrzowski dostępny dla każdego (oczywiście dla każdego, kto przeszedł przez
               wszystkie poprzednie części programu). Swobodne zastosowanie technik pamięciowych
@@ -91,11 +103,16 @@ export default {
   .part {
     margin-top: 15%;
     padding: 0 20px;
+    h2 {
+      span {
+        white-space: nowrap;
+      }
+    }
   }
   .part--one,
   .part--two {
     text-align: left;
-    border-left: 1.2px solid $rose;
+    border-left: 1.2px solid $dark_blue;
   }
 }
 @media screen and (min-width: 720px) {

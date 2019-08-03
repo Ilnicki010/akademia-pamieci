@@ -4,12 +4,11 @@
       <section v-if="loaded" class="content">
         <h1>JAK SIĘ ZAPISAĆ</h1>
         <p>
-          Poniżej lista miejsc i osób odpowiedzialnych za zapisy w danej lokalizacji:
-          <br />Juz wkrótce...
-          <br />Nie znalazłeś tu miejsca w którym mogłyby odbywać się nasze zajęcia? Zadzwoń i nam o tym opowiedz :)
+          W celu zapisania dziecka do grupy prosimy o kontakt telefoniczny w celu przeprowadzenia krótkiego wywiadu, oraz przypisania do odpowiedniej grupy
+          <br />tel. 509 203 761 lub wysłać maila na biuro@akademiapamiecigdynia.pl a oddzwonimy
         </p>
         <nuxt-link
-          to="/seniorzy/gdzie-jestesmy"
+          to="/dzieci/gdzie-jestesmy"
           class="button button--ghost button--ghost--dark_violet"
         >Gdzie jesteśmy</nuxt-link>
       </section>

@@ -1,7 +1,7 @@
 {
-  "name": "akademiapamiecigdynia",
+  "name": "akademiapamieci",
   "version": "1.0.0",
-  "description": "",
+  "description": "Zapraszamy na kursy z Technik Pamięciowych dla seniorów oraz dzieci. Dzieci nauczymy również ortografii, sprawnego czytania i notowania.",
   "author": "Dominik Ilnicki",
   "private": true,
   "scripts": {

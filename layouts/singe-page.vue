@@ -39,13 +39,13 @@ export default {
   position: relative;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
   .contentWrapper {
     position: relative;
     padding: $padding;
-    margin-top: 20vh;
+    margin-top: 10vh;
     .footer {
-      position: relative;
-      margin-top: 20vh;
+      margin-top: 10vh;
     }
   }
 }

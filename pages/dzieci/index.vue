@@ -1,19 +1,14 @@
 <template>
-  <main class="seniorWrapper">
-    <h1>ZAJĘCIA DLA SENIORÓW</h1>
-    <nav class="seniorsMenu">
+  <main class="kidsWrapper">
+    <h1>ZAJĘCIA DLA DZIECI</h1>
+    <nav class="kidsMenu">
+      <nuxt-link to="/dzieci/zajecia" class="button button--primary button--rose">Nasze zajęcia</nuxt-link>
       <nuxt-link
-        to="/seniorzy/zajecia"
-        class="button button--primary button--dark_blue"
-      >Nasze zajęcia</nuxt-link>
-      <nuxt-link
-        to="/seniorzy/gdzie-jestesmy"
-        class="button button--primary button--dark_blue"
+        to="/dzieci/gdzie-jestesmy"
+        class="button button--primary button--rose"
       >Gdzie jesteśmy</nuxt-link>
-      <nuxt-link
-        to="/seniorzy/zapisy"
-        class="button button--primary button--dark_blue"
-      >Jak się zapisać</nuxt-link>
+      <nuxt-link to="/dzieci/zapisy" class="button button--primary button--rose">Jak się zapisać</nuxt-link>
+      <nuxt-link to="/dzieci/cennik" class="button button--primary button--rose">Cennik</nuxt-link>
     </nav>
     <contact-info class="footer" />
   </main>
@@ -29,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/assets/style/vars.scss';
-.seniorWrapper {
+.kidsWrapper {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -39,7 +34,7 @@ export default {
   h1 {
     text-align: center;
   }
-  .seniorsMenu {
+  .kidsMenu {
     margin-top: 5vh;
     display: flex;
     flex-direction: column;
@@ -58,9 +53,9 @@ export default {
   }
 }
 @media screen and (min-width: 720px) {
-  .seniorWrapper {
+  .kidsWrapper {
     max-width: 100%;
-    .seniorsMenu {
+    .kidsMenu {
       flex-direction: row;
       justify-content: center;
       .button {
