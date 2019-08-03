@@ -10,33 +10,33 @@
       </label>
       <ul class="menu">
         <li>
-          <button class="main-link" tabindex="1">Seniorzy</button>
+          <button class="main-link">Seniorzy</button>
           <ul class="submenu submenu--seniors">
             <li>
-              <nuxt-link tabindex="2" class="item" to="/seniorzy/zajecia">Nasze zajęcia</nuxt-link>
+              <nuxt-link class="item" to="/seniorzy/zajecia">Nasze zajęcia</nuxt-link>
             </li>
             <li>
-              <nuxt-link tabindex="3" class="item" to="/seniorzy/gdzie-jestesmy">Gdzie jesteśmy</nuxt-link>
+              <nuxt-link class="item" to="/seniorzy/gdzie-jestesmy">Gdzie jesteśmy</nuxt-link>
             </li>
             <li>
-              <nuxt-link tabindex="4" class="item" to="/seniorzy/zapisy">Zapisy</nuxt-link>
+              <nuxt-link class="item" to="/seniorzy/zapisy">Zapisy</nuxt-link>
             </li>
           </ul>
         </li>
         <li>
-          <button class="main-link" tabindex="5">Dzieci</button>
+          <button class="main-link">Dzieci</button>
           <ul class="submenu submenu--kids">
             <li>
-              <nuxt-link tabindex="6" class="item" to="/dzieci/zajecia">Nasze zajęcia</nuxt-link>
+              <nuxt-link class="item" to="/dzieci/zajecia">Nasze zajęcia</nuxt-link>
             </li>
             <li>
-              <nuxt-link tabindex="7" class="item" to="/dzieci/gdzie-jestesmy">Gdzie jesteśmy</nuxt-link>
+              <nuxt-link class="item" to="/dzieci/gdzie-jestesmy">Gdzie jesteśmy</nuxt-link>
             </li>
             <li>
-              <nuxt-link tabindex="8" class="item" to="/dzieci/zapisy">Zapisy</nuxt-link>
+              <nuxt-link class="item" to="/dzieci/zapisy">Zapisy</nuxt-link>
             </li>
             <li>
-              <nuxt-link tabindex="9" class="item" to="/dzieci/cennik">Cennik</nuxt-link>
+              <nuxt-link class="item" to="/dzieci/cennik">Cennik</nuxt-link>
             </li>
           </ul>
         </li>
@@ -44,6 +44,7 @@
           <a
             href="https://www.facebook.com/akademiapamiecigdynia/"
             target="_blank"
+            rel="noreferrer"
             class="button button--ghost button--ghost--dark_blue news"
           >Aktualności</a>
         </li>

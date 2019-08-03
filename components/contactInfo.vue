@@ -5,7 +5,11 @@
     <mail-icon />
     <a href="mailto:biuro@akademiapamiecigdynia.pl">biuro@akademiapamiecigdynia.pl</a>
     <facebook-icon />
-    <a target="_blank" href="https://facebook.com/akademiapamiecigdynia">/akademiapamiecigdynia</a>
+    <a
+      rel="noreferrer"
+      target="_blank"
+      href="https://facebook.com/akademiapamiecigdynia"
+    >/akademiapamiecigdynia</a>
   </footer>
 </template>
 
