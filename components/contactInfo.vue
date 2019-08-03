@@ -1,11 +1,11 @@
 <template>
   <footer class="contactWrapper">
     <phone-icon />
-    <p>+48 509 203 761</p>
+    <a href="tel:+48 509 203 761">+48 509 203 761</a>
     <mail-icon />
-    <p>biuro@akademiapamiecigdynia.pl</p>
+    <a href="mailto:biuro@akademiapamiecigdynia.pl">biuro@akademiapamiecigdynia.pl</a>
     <facebook-icon />
-    <p>/akademiapamiecigdynia</p>
+    <a target="_blank" href="https://facebook.com/akademiapamiecigdynia">/akademiapamiecigdynia</a>
   </footer>
 </template>
 
@@ -21,8 +21,6 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/style/vars.scss';
 .contactWrapper {
-  color: $dark_blue;
-  font-size: $xx-small;
   display: grid;
   grid-template-columns: 15px auto;
   grid-column-gap: 10px;
@@ -31,6 +29,10 @@ export default {
   float: left;
   text-align: left;
   margin-top: 20px;
+  a {
+    color: $dark_blue;
+    font-size: $xx-small;
+  }
   svg {
     height: 15px;
   }

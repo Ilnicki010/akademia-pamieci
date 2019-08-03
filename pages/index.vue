@@ -72,7 +72,7 @@ export default {
   .footer {
     position: absolute;
     left: 0;
-    bottom: -130px;
+    bottom: -30%;
   }
 }
 @media screen and (min-width: 720px) {

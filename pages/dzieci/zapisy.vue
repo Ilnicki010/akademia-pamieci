@@ -4,8 +4,9 @@
       <section v-if="loaded" class="content">
         <h1>JAK SIĘ ZAPISAĆ</h1>
         <p>
-          W celu zapisania dziecka do grupy prosimy o kontakt telefoniczny w celu przeprowadzenia krótkiego wywiadu, oraz przypisania do odpowiedniej grupy
-          <br />tel. 509 203 761 lub wysłać maila na biuro@akademiapamiecigdynia.pl a oddzwonimy
+          Aby zapisać dziecko do grupy prosimy o kontakt telefoniczny. Niezbędne jest przeprowadzenia krótkiego wywiadu, oraz przypisania do odpowiedniej grupy
+          <br />pod numer tel. 509 203 761
+          <br />lub wysłać maila na biuro@akademiapamiecigdynia.pl a oddzwonimy.
         </p>
         <nuxt-link
           to="/dzieci/gdzie-jestesmy"
@@ -40,6 +41,7 @@ export default {
   flex-direction: column;
   p {
     margin-top: 40px;
+    max-width: 80%;
   }
   .button {
     margin-top: 5vh;

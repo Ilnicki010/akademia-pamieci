@@ -26,7 +26,7 @@
             <strong>40 zł</strong>Odrabianie opuszczonych zajęć 60 min
           </li>
           <li class="ofert ofert--seven ofert--rose">
-            <strong>40 zł</strong>Odrabianie opuszczonych zajęć 60 min
+            <strong>?</strong>Mikrogrupy (2-4 osób) - cena ustalana indywidualnie
           </li>
         </ul>
       </section>
@@ -147,10 +147,21 @@ export default {
     .ofert--seven {
       grid-area: 6 / 1 / 6 / 6;
     }
-    .ofert--six,
-    .ofert--seven {
+    .ofert--six {
       &::after {
         content: '40 zł';
+        position: absolute;
+        bottom: -25%;
+        font-size: 7rem;
+        color: $white;
+        opacity: 0.2;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+      }
+    }
+    .ofert--seven {
+      &::after {
+        content: '? ? ?';
         position: absolute;
         bottom: -25%;
         font-size: 7rem;

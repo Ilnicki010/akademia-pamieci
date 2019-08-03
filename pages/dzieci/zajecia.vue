@@ -40,7 +40,11 @@
             </h3>
             <p>Zajęcia mają charakter treningu zawierającego szereg ćwiczeń usprawniających pamięć i koncentrację. Dzieci poznają wiele technik pamięciowych i trenują je w oparciu o informacje zaczerpnięte z programu szkolnego. Zapamiętują wiele przydatnych w dalszym toku nauki danych w sposób nie tylko łatwy, ale przede wszystkim trwały (m.in. województwa, daty historyczne, wysokości gór, dopływy rzek). Doskonalą swoją zdolność koncentracji dzięki zabawom sprawnościowym, łamigłówkom i ćwiczeniom gimnastykującym umysł. Jest to również doskonały trening twórczego myślenia. Dzięki opanowanej w tym module metodzie zapamiętywania liczb, dzieci są w stanie efektywnie przyswoić informacje wymagające w tradycyjnym podejściu żmudnego pamięciowego uczenia.</p>
             <h3>
-              <span>RAMPAMPAM</span>
+              <span>
+                KONCENTRACJA,
+                <br />AUTOPREZENTACJA,
+                <br />LOGICZNE MYŚLENIE
+              </span>
               <span>(15 SPOTKAŃ)</span>
             </h3>
             <p>Poza treningiem technik pamięciowych poznanych w poprzednich modułach w tej części dzieci uczą się, jak skutecznie i efektownie zaprezentować swoją wiedzę. Uczymy również, jak pokonać strach przed wystąpieniami.</p>

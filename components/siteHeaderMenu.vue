@@ -10,7 +10,7 @@
       </label>
       <ul class="menu">
         <li>
-          <button class="main-link button" tabindex="1">Seniorzy</button>
+          <button class="main-link" tabindex="1">Seniorzy</button>
           <ul class="submenu submenu--seniors">
             <li>
               <nuxt-link tabindex="2" class="item" to="/seniorzy/zajecia">Nasze zajęcia</nuxt-link>
@@ -24,7 +24,7 @@
           </ul>
         </li>
         <li>
-          <button class="main-link button" tabindex="5">Dzieci</button>
+          <button class="main-link" tabindex="5">Dzieci</button>
           <ul class="submenu submenu--kids">
             <li>
               <nuxt-link tabindex="6" class="item" to="/dzieci/zajecia">Nasze zajęcia</nuxt-link>
@@ -39,6 +39,13 @@
               <nuxt-link tabindex="9" class="item" to="/dzieci/cennik">Cennik</nuxt-link>
             </li>
           </ul>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/akademiapamiecigdynia/"
+            target="_blank"
+            class="button button--ghost button--ghost--dark_blue news"
+          >Aktualności</a>
         </li>
       </ul>
     </header>
@@ -69,6 +76,9 @@ export default {
   watch: {
     $route() {
       document.getElementById('menu-btn').checked = false
+      document.querySelectorAll('.item').forEach(el => {
+        el.blur()
+      })
     }
   }
 }
@@ -85,7 +95,6 @@ export default {
   position: fixed;
   width: 100%;
   z-index: 3;
-
   .logo {
     display: block;
     float: left;
@@ -113,6 +122,11 @@ export default {
           border: 3px solid $yellow;
           outline: none;
         }
+      }
+      .news {
+        width: 130px;
+        margin: auto;
+        margin-bottom: 20px;
       }
       .submenu--kids {
         li {
@@ -146,8 +160,10 @@ export default {
     clear: both;
     max-height: 0;
     transition: max-height 0.2s ease-out;
+
     .main-link {
       border: none;
+      background: none;
       &:focus {
         border: 3px solid $yellow;
         outline: none;
@@ -214,8 +230,9 @@ export default {
 @media (min-width: 48em) {
   .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding: 0 25px;
     .logo {
       flex: 1;
 
@@ -230,6 +247,12 @@ export default {
       display: flex;
       flex: 3;
       justify-content: center;
+      display: flex;
+      align-items: center;
+      .news {
+        margin-bottom: 0;
+        flex: 1;
+      }
       li {
         padding: 0;
         a {

@@ -65,9 +65,6 @@ export default {
         type: 'image/png',
         sizes: '16x16',
         herf: '/favicon-16x16.png'
-      }, {
-        rel: 'manifest',
-        href: '/site.webmanifest'
       },
       {
         rel: 'mask-icon',
