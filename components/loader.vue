@@ -1,5 +1,5 @@
 <template lang="html">
-<transform name="fade">
+<transition name="fade">
   <div class="loading-page" v-if="loading">
   <svg width="256" height="256"  viewBox="101 -257 100 1000" >
 	 <g id="Layer1000">
@@ -12,7 +12,7 @@
    </g>
 </svg>
   </div>
-  </transform>
+  </transition>
 </template>
 
 <script>

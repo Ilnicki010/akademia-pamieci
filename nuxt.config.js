@@ -54,17 +54,17 @@ export default {
       }, {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        herf: '/apple-touch-icon.png'
+        href: '/apple-touch-icon.png'
       }, {
-        rel: 'iconn',
+        rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        herf: '/favicon-32x32.png'
+        href: '/favicon-32x32.png'
       }, {
-        rel: 'iconn',
+        rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        herf: '/favicon-16x16.png'
+        href: '/favicon-16x16.png'
       },
       {
         rel: 'mask-icon',
