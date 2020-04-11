@@ -11,6 +11,7 @@
           <br />Dzieci zapraszamy na zajęcia z ortografii, trening czytania i notowania, techniki pamięciowe, oraz autoprezentację.
         </p>
         <nav class="buttons">
+          <nuxt-link to="/dorosli" class="button button--primary button--orange">Dorośli</nuxt-link>
           <nuxt-link to="/seniorzy" class="button button--primary button--dark_blue">Seniorzy</nuxt-link>
           <nuxt-link to="/dzieci" class="button button--primary button--rose">Dzieci</nuxt-link>
         </nav>
@@ -57,9 +58,7 @@ export default {
     .buttons {
       display: flex;
       .button {
-        margin: 20px 20px 0 0;
-        max-width: 160px;
-        flex: 1;
+        margin: 5px 5px 5px 0;
       }
     }
     .asset {

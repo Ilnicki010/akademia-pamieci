@@ -10,13 +10,30 @@
       </label>
       <ul class="menu">
         <li>
+          <button class="main-link">Dorośli</button>
+          <ul class="submenu submenu--adults">
+            <li>
+              <nuxt-link class="item" to="/dorosli/zajecia"
+                >Nasze zajęcia</nuxt-link
+              >
+            </li>
+            <li>
+              <nuxt-link class="item" to="/dorosli/cennik">Cennik</nuxt-link>
+            </li>
+          </ul>
+        </li>
+        <li>
           <button class="main-link">Seniorzy</button>
           <ul class="submenu submenu--seniors">
             <li>
-              <nuxt-link class="item" to="/seniorzy/zajecia">Nasze zajęcia</nuxt-link>
+              <nuxt-link class="item" to="/seniorzy/zajecia"
+                >Nasze zajęcia</nuxt-link
+              >
             </li>
             <li>
-              <nuxt-link class="item" to="/seniorzy/gdzie-jestesmy">Gdzie jesteśmy</nuxt-link>
+              <nuxt-link class="item" to="/seniorzy/gdzie-jestesmy"
+                >Gdzie jesteśmy</nuxt-link
+              >
             </li>
             <li>
               <nuxt-link class="item" to="/seniorzy/zapisy">Zapisy</nuxt-link>
@@ -27,10 +44,14 @@
           <button class="main-link">Dzieci</button>
           <ul class="submenu submenu--kids">
             <li>
-              <nuxt-link class="item" to="/dzieci/zajecia">Nasze zajęcia</nuxt-link>
+              <nuxt-link class="item" to="/dzieci/zajecia"
+                >Nasze zajęcia</nuxt-link
+              >
             </li>
             <li>
-              <nuxt-link class="item" to="/dzieci/gdzie-jestesmy">Gdzie jesteśmy</nuxt-link>
+              <nuxt-link class="item" to="/dzieci/gdzie-jestesmy"
+                >Gdzie jesteśmy</nuxt-link
+              >
             </li>
             <li>
               <nuxt-link class="item" to="/dzieci/zapisy">Zapisy</nuxt-link>
@@ -46,7 +67,8 @@
             target="_blank"
             rel="noreferrer"
             class="button button--ghost button--ghost--dark_blue news"
-          >Aktualności</a>
+            >Aktualności</a
+          >
         </li>
       </ul>
     </header>
@@ -139,13 +161,18 @@ export default {
           background: $dark_blue;
         }
       }
+      .submenu--adults {
+        li {
+          background: $orange;
+        }
+      }
       ul {
         display: flex;
         justify-content: flex-start;
         align-items: center;
         flex-wrap: wrap;
         padding: 0 10px;
-        margin-bottom: 30px;
+
         li {
           padding: 10px 30px;
           color: $white;

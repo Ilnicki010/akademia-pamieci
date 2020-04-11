@@ -15,7 +15,6 @@
         <div class="courseParts">
           <article class="part part--one">
             <h2>
-              <span>CZĘŚĆ 1 /</span>
               <span>SEMESTR 1</span>
             </h2>
             <p>
@@ -28,7 +27,6 @@
           </article>
           <article class="part part--two">
             <h2>
-              <span>CZĘŚĆ 2 /</span>
               <span>SEMESTR 2</span>
             </h2>
             <p>
@@ -39,7 +37,6 @@
           </article>
           <article class="part part--one">
             <h2>
-              <span>CZĘŚĆ 3 /</span>
               <span>SEMESTR 3</span>
             </h2>
             <p>
@@ -50,7 +47,6 @@
           </article>
           <article class="part part--two">
             <h2>
-              <span>CZĘŚĆ 4 /</span>
               <span>SEMESTR 4</span>
             </h2>
             <p>
