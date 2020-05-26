@@ -1,5 +1,6 @@
 <template>
   <a
+    rel="noopener"
     href="https://bo.gdynia.pl/"
     target="_blank"
     class="button button--primary button--dark_blue"
