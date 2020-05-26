@@ -92,7 +92,6 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-webfontloader'],
   /*
    ** Build configuration
    */
