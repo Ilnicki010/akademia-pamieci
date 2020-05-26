@@ -1,6 +1,5 @@
 const webpack = require('webpack')
 export default {
-
   mode: 'universal',
   /*
    ** Headers of the page
@@ -8,9 +7,10 @@ export default {
   head: {
     title: 'Akademia Pamięci Gdynia',
     htmlAttrs: {
-      lang: 'pl-PL',
+      lang: 'pl-PL'
     },
-    meta: [{
+    meta: [
+      {
         charset: 'utf-8'
       },
       {
@@ -24,7 +24,8 @@ export default {
       },
       {
         name: 'keywors',
-        content: 'zajęcia pamięciowe, ortografia, zajęcia dla dzieci, zajęcia dla seniorów'
+        content:
+          'zajęcia pamięciowe, ortografia, zajęcia dla dzieci, zajęcia dla seniorów'
       },
       {
         name: 'msapplication-TileColor',
@@ -32,11 +33,13 @@ export default {
       },
       {
         property: 'og:title',
-        content: 'Akademia Pamięci Gdynia - Dołącz do grona ludzi świadomie korzystających z możliwości swojego umysłu'
+        content:
+          'Akademia Pamięci Gdynia - Dołącz do grona ludzi świadomie korzystających z możliwości swojego umysłu'
       },
       {
         property: 'og:description',
-        content: 'Seniorów zapraszamy na trening umysłu, dawkę pozytywnej energii i świetną zabawę. Dzieci zapraszamy na zajęcia z ortografii, trening czytania i notowania, techniki pamięciowe, oraz autoprezentację.'
+        content:
+          'Seniorów zapraszamy na trening umysłu, dawkę pozytywnej energii i świetną zabawę. Dzieci zapraszamy na zajęcia z ortografii, trening czytania i notowania, techniki pamięciowe, oraz autoprezentację.'
       },
       {
         property: 'og:site_name',
@@ -45,22 +48,26 @@ export default {
       {
         property: 'og:url',
         content: 'https://akademiapamiecigdynia.pl'
-      },
+      }
     ],
-    link: [{
+    link: [
+      {
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
-      }, {
+      },
+      {
         rel: 'apple-touch-icon',
         sizes: '180x180',
         href: '/apple-touch-icon.png'
-      }, {
+      },
+      {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
         href: '/favicon-32x32.png'
-      }, {
+      },
+      {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
@@ -73,18 +80,11 @@ export default {
       }
     ]
   },
-  webfontloader: {
-    google: {
-      families: ['Josefin+Sans:400,700&display=swap', 'Open+Sans:300,400&display=swap']
-    }
-  },
   loading: '~/components/loader.vue',
   /*
    ** Global CSS
    */
-  css: [
-    '@/assets/style/global.scss'
-  ],
+  css: ['@/assets/style/global.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -92,22 +92,20 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    'nuxt-webfontloader',
-  ],
+  modules: ['nuxt-webfontloader'],
   /*
    ** Build configuration
    */
   build: {
-    extend: (config) => {
-      const svgRule = config.module.rules.find(rule => rule.test.test('.svg'));
+    extend: config => {
+      const svgRule = config.module.rules.find(rule => rule.test.test('.svg'))
 
-      svgRule.test = /\.(png|jpe?g|gif|webp)$/;
+      svgRule.test = /\.(png|jpe?g|gif|webp)$/
 
       config.module.rules.push({
         test: /\.svg$/,
-        loader: 'vue-svg-loader',
-      });
-    },
+        loader: 'vue-svg-loader'
+      })
+    }
   }
 }

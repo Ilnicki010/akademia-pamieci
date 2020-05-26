@@ -3,31 +3,37 @@
     <section class="ctaSection">
       <div class="content">
         <h1>
-          Dołącz do grona ludzi świadomie
-          korzystających z możliwości swojego umysłu
+          Dołącz do grona ludzi świadomie korzystających z możliwości swojego
+          umysłu
         </h1>
         <p>
-          Seniorów zapraszamy na trening umysłu, dawkę pozytywnej energii i świetną zabawę.
-          <br />Dzieci zapraszamy na zajęcia z ortografii, trening czytania i notowania, techniki pamięciowe, oraz autoprezentację.
+          Seniorów zapraszamy na trening umysłu, dawkę pozytywnej energii i
+          świetną zabawę.
+          <br />Dzieci zapraszamy na zajęcia z ortografii, trening czytania i
+          notowania, techniki pamięciowe, oraz autoprezentację.
         </p>
         <nav class="buttons">
-          <nuxt-link to="/dorosli" class="button button--primary button--orange">Dorośli</nuxt-link>
-          <nuxt-link to="/seniorzy" class="button button--primary button--dark_blue">Seniorzy</nuxt-link>
-          <nuxt-link to="/dzieci" class="button button--primary button--rose">Dzieci</nuxt-link>
+          <nuxt-link
+            to="/oferta"
+            class="button button--ghost button--ghost--dark_blue"
+            >Sprawdź ofertę</nuxt-link
+          >
+          <cta-button />
         </nav>
       </div>
       <asset-icon class="asset" />
-      <contact-info class="footer" />
+      <contact-info class="contact-info" />
     </section>
   </main>
 </template>
 
 <script>
 import contactInfo from '@/components/contactInfo'
+import ctaButton from '@/components/ctaButton'
 import siteHeaderMenu from '@/components/siteHeaderMenu'
 import assetIcon from '@/assets/svg/asset.svg'
 export default {
-  components: { contactInfo, siteHeaderMenu, assetIcon },
+  components: { contactInfo, siteHeaderMenu, assetIcon, ctaButton },
   data() {
     return {
       loaded: false
@@ -50,6 +56,8 @@ export default {
   overflow: hidden;
   .ctaSection {
     position: relative;
+    display: flex;
+    flex-direction: column;
     .content {
       h1 {
         line-height: 1;
@@ -67,11 +75,6 @@ export default {
       right: $padding;
       width: 16%;
     }
-  }
-  .footer {
-    position: absolute;
-    left: 0;
-    bottom: -30%;
   }
 }
 @media screen and (min-width: 720px) {

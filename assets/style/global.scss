@@ -127,7 +127,12 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  src: url(https://fonts.gstatic.com/s/Josefin+Sans/normal) format('woff2');
+  font-display: swap;
+}
 *,
 *:before,
 *:after {
@@ -150,10 +155,9 @@ html {
   }
 
   path {
-    fill: yellow
+    fill: yellow;
   }
 }
-
 
 .button {
   text-decoration: none;
@@ -163,20 +167,20 @@ html {
   height: 48px;
   text-align: center;
   justify-content: center;
+  font-weight: 500;
   align-items: center;
   display: flex;
   cursor: pointer;
-  transition: transform .2s cubic-bezier(.48, .22, .68, 1.34);
+  transition: transform 0.2s cubic-bezier(0.48, 0.22, 0.68, 1.34);
   color: $dark_blue;
   background: transparent;
 
   &:focus {
-    border: 3px solid $yellow;
+    box-shadow: 0 0 0 3px $yellow;
   }
 
   &:hover {
-    transform: scale(1.07);
-
+    transform: scale(1.04);
   }
 }
 
@@ -277,11 +281,11 @@ html {
 
 .page-enter-active,
 .page-leave-active {
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .page-enter,
 .page-leave-to {
   opacity: 0;
-  transform: translateY(3vh)
+  transform: translateY(3vh);
 }

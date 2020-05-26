@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainWrapper">
     <div>
       <site-header-menu :showMenu="false" />
       <nuxt />
@@ -8,6 +8,9 @@
 </template>
 
 <style>
+.mainWrapper {
+  width: 100vw;
+}
 </style>
 <script>
 import siteHeaderMenu from '@/components/siteHeaderMenu'

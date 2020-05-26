@@ -5,9 +5,14 @@
         <header class="siteHeader">
           <h1>O ZAJĘCIACH</h1>
           <p>
-            Serdecznie zapraszamy wszystkich seniorów na treningi, które rozwiną możliwości Twojej pamięci. Nasze zajęcia to nie tylko duża dawka wiedzy, ale również pozytywnej energii i przekraczania swoich granic.
-            Natomiast każde spotkanie pełne wyzwań, powinno zakończyć się relaksem i oczyszczeniem umysłu. Nasi trenerzy doskonale wiedzą jak to osiągnąć i uczą odpowiednich technik.
-            Pamiętaj, zawsze jest dobry moment żeby zacząć pracę nad sobą. Mózg jest nam potrzebny do końca życia, dbajmy o niego każdego dnia.
+            Serdecznie zapraszamy wszystkich seniorów na treningi, które rozwiną
+            możliwości Twojej pamięci. Nasze zajęcia to nie tylko duża dawka
+            wiedzy, ale również pozytywnej energii i przekraczania swoich
+            granic. Natomiast każde spotkanie pełne wyzwań, powinno zakończyć
+            się relaksem i oczyszczeniem umysłu. Nasi trenerzy doskonale wiedzą
+            jak to osiągnąć i uczą odpowiednich technik. Pamiętaj, zawsze jest
+            dobry moment żeby zacząć pracę nad sobą. Mózg jest nam potrzebny do
+            końca życia, dbajmy o niego każdego dnia.
             <br />
             <strong>Bądź lepszy od siebie samego z wczoraj.</strong>
           </p>
@@ -18,11 +23,13 @@
               <span>SEMESTR 1</span>
             </h2>
             <p>
-              Kurs wprowadzający w świat technik pamięciowych skrojony specjalnie dla seniorów.
-              Odpowiada na potrzebę radzenia sobie z kłopotami z pamięcią. Rozwija umiejętności
-              zapamiętywania dowolnych informacji. Trenujemy podstawowe techniki pamięciowe
-              (Łańcuchowa Metoda Zapamiętywania, Zakładki Osobiste, Pokój Rzymski, Zakładki
-              Liczbowe, Mapy Myśli, Technika Słów Zastępczych, zapamiętywanie osób).
+              Kurs wprowadzający w świat technik pamięciowych skrojony
+              specjalnie dla seniorów. Odpowiada na potrzebę radzenia sobie z
+              kłopotami z pamięcią. Rozwija umiejętności zapamiętywania
+              dowolnych informacji. Trenujemy podstawowe techniki pamięciowe
+              (Łańcuchowa Metoda Zapamiętywania, Zakładki Osobiste, Pokój
+              Rzymski, Zakładki Liczbowe, Mapy Myśli, Technika Słów Zastępczych,
+              zapamiętywanie osób).
             </p>
           </article>
           <article class="part part--two">
@@ -30,9 +37,9 @@
               <span>SEMESTR 2</span>
             </h2>
             <p>
-              Wstęp do Głównego Systemu Pamięciowego, czyli techniki pomagającej zapamiętywać
-              liczby. Mnóstwo ciekawych i rozwijających ćwiczeń i wiele okazji do rozbudowania
-              umiejętności zapamiętywania liczb.
+              Wstęp do Głównego Systemu Pamięciowego, czyli techniki pomagającej
+              zapamiętywać liczby. Mnóstwo ciekawych i rozwijających ćwiczeń i
+              wiele okazji do rozbudowania umiejętności zapamiętywania liczb.
             </p>
           </article>
           <article class="part part--one">
@@ -40,9 +47,10 @@
               <span>SEMESTR 3</span>
             </h2>
             <p>
-              Sposób na zapamiętywanie liczb, czyli Główny System Pamięciowy, to okazja to wielu
-              ciekawych ćwiczeń i stymulowania mózgu. Umiejętności zawarte w tej części programu
-              pozwolą na niezwykły skok wydajności mózgu i rozwój pamięci.
+              Sposób na zapamiętywanie liczb, czyli Główny System Pamięciowy, to
+              okazja to wielu ciekawych ćwiczeń i stymulowania mózgu.
+              Umiejętności zawarte w tej części programu pozwolą na niezwykły
+              skok wydajności mózgu i rozwój pamięci.
             </p>
           </article>
           <article class="part part--two">
@@ -50,9 +58,10 @@
               <span>SEMESTR 4</span>
             </h2>
             <p>
-              Poziom mistrzowski dostępny dla każdego (oczywiście dla każdego, kto przeszedł przez
-              wszystkie poprzednie części programu). Swobodne zastosowanie technik pamięciowych
-              oraz używanie kilku technik jednocześnie daje dużą swobodę w zapamiętywaniu oraz w
+              Poziom mistrzowski dostępny dla każdego (oczywiście dla każdego,
+              kto przeszedł przez wszystkie poprzednie części programu).
+              Swobodne zastosowanie technik pamięciowych oraz używanie kilku
+              technik jednocześnie daje dużą swobodę w zapamiętywaniu oraz w
               przypominaniu sobie dowolnych informacji.
             </p>
           </article>
@@ -101,7 +110,7 @@ export default {
     padding: 0 20px;
     h2 {
       span {
-        white-space: nowrap;
+        word-break: break-word;
       }
     }
   }

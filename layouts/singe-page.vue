@@ -1,9 +1,18 @@
 <template>
   <transition name="slide-up">
-    <div v-if="loaded" v-bind:class="{ 'theme-contrast' : contrastMode }" class="singleWrapper">
-      <site-header-menu class="header" :showMenu="true" @changeTheme="contrastModeHandler" />
+    <div
+      v-if="loaded"
+      v-bind:class="{ 'theme-contrast': contrastMode }"
+      class="singleWrapper"
+    >
+      <site-header-menu
+        class="header"
+        :showMenu="true"
+        @changeTheme="contrastModeHandler"
+      />
       <section class="contentWrapper">
         <nuxt />
+        <cta-button class="cta-button" />
         <contact-info v-if="loaded" class="footer" />
       </section>
     </div>
@@ -12,9 +21,11 @@
 
 <script>
 import siteHeaderMenu from '@/components/siteHeaderMenu'
+import ctaButton from '@/components/ctaButton'
+
 import contactInfo from '@/components/contactInfo'
 export default {
-  components: { siteHeaderMenu, contactInfo },
+  components: { siteHeaderMenu, contactInfo, ctaButton },
   data() {
     return {
       loaded: false,
@@ -42,8 +53,16 @@ export default {
   overflow-x: hidden;
   .contentWrapper {
     position: relative;
+    display: flex;
+    flex-direction: column;
     padding: $padding;
     margin-top: 10vh;
+    .cta-button {
+      position: relative;
+      align-self: center;
+      justify-self: center;
+      margin-top: 10%;
+    }
     .footer {
       margin-top: 10vh;
     }

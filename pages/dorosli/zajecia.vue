@@ -107,12 +107,12 @@ export default {
   width: 100%;
   .part {
     margin-top: 15%;
-    padding: 0 20px;
+    padding: 0 10px;
     h3 {
       margin-top: 3vh;
     }
     span {
-      white-space: nowrap;
+      word-break: break-word;
       &:last-child {
         font-size: 80%;
         opacity: 0.8;
