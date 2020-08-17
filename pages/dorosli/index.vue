@@ -2,8 +2,21 @@
   <main class="adultsWrapper">
     <h1>ZAJĘCIA DLA DOROSŁYCH</h1>
     <nav class="adultsMenu">
-      <nuxt-link to="/dorosli/zajecia" class="button button--primary button--orange">Nasze zajęcia</nuxt-link>
-      <nuxt-link to="/dorosli/cennik" class="button button--primary button--orange">Cennik</nuxt-link>
+      <nuxt-link
+        to="/dorosli/zajecia"
+        class="button button--primary button--orange"
+        >Nasze zajęcia</nuxt-link
+      >
+      <nuxt-link
+        to="/dorosli/cennik"
+        class="button button--primary button--orange"
+        >Cennik</nuxt-link
+      >
+      <nuxt-link
+        to="/dorosli/gdzie-jestesmy"
+        class="button button--primary button--orange"
+        >Gdzie jesteśmy</nuxt-link
+      >
     </nav>
     <contact-info class="footer" />
   </main>

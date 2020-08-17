@@ -20,6 +20,11 @@
             <li>
               <nuxt-link class="item" to="/dorosli/cennik">Cennik</nuxt-link>
             </li>
+            <li>
+              <nuxt-link class="item" to="/dorosli/gdzie-jestesmy"
+                >Gdzie jesteśmy</nuxt-link
+              >
+            </li>
           </ul>
         </li>
         <li>

@@ -5,16 +5,14 @@
         <h1>GDZIE JESTEŚMY</h1>
         <div class="adressList">
           <article class="adress">
-            <strong>Leonardo School</strong>
+            <strong
+              >Zajęcia odbywają się w zaprzyjaźnionej szkole Leonardo School
+            </strong>
             <p>ul. Jantarowa 13/2 Gdynia Obłuże</p>
           </article>
           <article class="adress">
-            <strong>ZS-P w Dębogórzu</strong>
-            <p>ul. Pomorska 30 Dębogórze</p>
-          </article>
-          <article class="adress">
             <strong>Zajęcia online</strong>
-            <p>Zajęcia prowadzone są na komercyjnej platformie ZOOM</p>
+            <p>zajęcia prowadzone są na komercyjnej platformie ZOOM</p>
           </article>
         </div>
       </section>

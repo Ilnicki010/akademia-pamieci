@@ -4,7 +4,7 @@
     href="https://bo.gdynia.pl/"
     target="_blank"
     class="button button--primary button--dark_blue"
-    >Zagłosuj w "BO" Gdynia</a
+    >Zapisz się</a
   >
 </template>
 

@@ -5,28 +5,23 @@
         <h1>CENNIK</h1>
         <ul class="oferts-list">
           <li class="ofert ofert--one">
-            <strong>1900 zł</strong>opłata roczna
-          </li>
-          <li class="ofert ofert--two">
-            <strong>975 zł</strong>Opłata semestralna (2 raty w roku)
+            <strong>1990 zł</strong>opłata roczna
           </li>
           <li class="ofert ofert--three">
-            <strong>
-              1 rata x 270 i
-              <br />7 rat x 240 zł
-            </strong>Opłata ratalna (8 raty w roku)
+            <strong> 8 rat x 248,75 zł</strong>Opłata ratalna (8 raty w roku)
           </li>
           <li class="ofert ofert--four">
             <strong>180 zł</strong>Koszt materiałów na cały rok nauki
           </li>
           <li class="ofert ofert--five ofert--rose">
-            <strong>70 zł</strong>Zajęcia indywidualne 60 min
+            <strong>90 zł</strong>Zajęcia indywidualne 60 min
           </li>
           <li class="ofert ofert--six ofert--rose">
-            <strong>40 zł</strong>Odrabianie opuszczonych zajęć 60 min
+            <strong>50 zł</strong>Odrabianie opuszczonych zajęć 60 min
           </li>
           <li class="ofert ofert--seven ofert--rose">
-            <strong>?</strong>Mikrogrupy (2-4 osób) - cena ustalana indywidualnie
+            <strong>?</strong>Mikrogrupy (2-4 osób) - cena ustalana
+            indywidualnie
           </li>
         </ul>
       </section>
@@ -111,7 +106,7 @@ export default {
       }
     }
     .ofert--three {
-      grid-area: 2 / 3 / 3 / 5;
+      grid-column: 1 / 6;
       &::after {
         content: '240 zł';
         position: absolute;

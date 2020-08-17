@@ -9,7 +9,9 @@
         <p>
           Seniorów zapraszamy na trening umysłu, dawkę pozytywnej energii i
           świetną zabawę.
-          <br />Dzieci zapraszamy na zajęcia z ortografii, trening czytania i
+        </p>
+        <p>
+          Dzieci zapraszamy na zajęcia z ortografii, trening czytania i
           notowania, techniki pamięciowe, oraz autoprezentację.
         </p>
         <nav class="buttons">
