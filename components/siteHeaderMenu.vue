@@ -18,12 +18,15 @@
               >
             </li>
             <li>
-              <nuxt-link class="item" to="/dorosli/cennik">Cennik</nuxt-link>
-            </li>
-            <li>
               <nuxt-link class="item" to="/dorosli/gdzie-jestesmy"
                 >Gdzie jesteśmy</nuxt-link
               >
+            </li>
+            <li>
+              <nuxt-link class="item" to="/dorosli/cennik">Cennik</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link class="item" to="/dorosli/zapisy">Zapisy</nuxt-link>
             </li>
           </ul>
         </li>
@@ -42,6 +45,9 @@
             </li>
             <li>
               <nuxt-link class="item" to="/seniorzy/zapisy">Zapisy</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link class="item" to="/seniorzy/cennik">Cennik</nuxt-link>
             </li>
           </ul>
         </li>

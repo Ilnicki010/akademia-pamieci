@@ -5,9 +5,16 @@
         <h1>GDZIE JESTEŚMY</h1>
         <div class="adressList">
           <article class="adress">
-            <strong>Nasza placówka</strong>
+            <strong
+              >Zajęcia odbywają się w zaprzyjaźnionej szkole Leonardo
+              School</strong
+            >
             <p>ul. Jantarowa 13/2 Gdynia Obłuże</p>
             <p>Zapisy pod numerem: +48 509 203 761</p>
+          </article>
+          <article class="adress">
+            <strong>Zajęcia online</strong>
+            <p>Zajęcia prowadzone są na komercyjnej platformie ZOOM</p>
           </article>
           <article class="adress">
             <strong>Więcej wkrótce...</strong>

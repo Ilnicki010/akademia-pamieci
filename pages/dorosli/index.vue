@@ -8,14 +8,19 @@
         >Nasze zajęcia</nuxt-link
       >
       <nuxt-link
-        to="/dorosli/cennik"
-        class="button button--primary button--orange"
-        >Cennik</nuxt-link
-      >
-      <nuxt-link
         to="/dorosli/gdzie-jestesmy"
         class="button button--primary button--orange"
         >Gdzie jesteśmy</nuxt-link
+      >
+      <nuxt-link
+        to="/dorosli/zapisy"
+        class="button button--primary button--orange"
+        >Jak się zapisać</nuxt-link
+      >
+      <nuxt-link
+        to="/dorosli/cennik"
+        class="button button--primary button--orange"
+        >Cennik</nuxt-link
       >
     </nav>
     <contact-info class="footer" />

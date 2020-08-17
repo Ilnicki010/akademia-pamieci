@@ -12,7 +12,7 @@
           </article>
           <article class="adress">
             <strong>Zajęcia online</strong>
-            <p>zajęcia prowadzone są na komercyjnej platformie ZOOM</p>
+            <p>Zajęcia prowadzone są na komercyjnej platformie ZOOM</p>
           </article>
         </div>
       </section>

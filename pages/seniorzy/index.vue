@@ -5,15 +5,23 @@
       <nuxt-link
         to="/seniorzy/zajecia"
         class="button button--primary button--dark_blue"
-      >Nasze zajęcia</nuxt-link>
+        >Nasze zajęcia</nuxt-link
+      >
       <nuxt-link
         to="/seniorzy/gdzie-jestesmy"
         class="button button--primary button--dark_blue"
-      >Gdzie jesteśmy</nuxt-link>
+        >Gdzie jesteśmy</nuxt-link
+      >
       <nuxt-link
         to="/seniorzy/zapisy"
         class="button button--primary button--dark_blue"
-      >Jak się zapisać</nuxt-link>
+        >Jak się zapisać</nuxt-link
+      >
+      <nuxt-link
+        to="/seniorzy/cennik"
+        class="button button--primary button--dark_blue"
+        >Cennik</nuxt-link
+      >
     </nav>
     <contact-info class="footer" />
   </main>

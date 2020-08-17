@@ -7,12 +7,14 @@
           umysłu
         </h1>
         <p>
-          Seniorów zapraszamy na trening umysłu, dawkę pozytywnej energii i
-          świetną zabawę.
+          Zapraszamy na treningi, które rozwiną możliwości Twojej pamięci.
+          Poznasz na nich techniki pamięciowe, które powszechnie znane nie są
+          jednak wykorzystywane przez wielu. Bądź lepszy od siebie samego z
+          wczoraj. Dołącz do grona ludzi świadomie korzystających z
+          niesamowitych możliwości swojego umysłu.
         </p>
         <p>
-          Dzieci zapraszamy na zajęcia z ortografii, trening czytania i
-          notowania, techniki pamięciowe, oraz autoprezentację.
+          Wszystko jest możliwe!
         </p>
         <nav class="buttons">
           <nuxt-link

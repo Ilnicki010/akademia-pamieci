@@ -3,15 +3,11 @@
     <transition name="slide-up">
       <section v-if="loaded" class="content">
         <h1>JAK SIĘ ZAPISAĆ</h1>
+        <p>Aby przejść do formularza zapisu, kliknij poniższy przycisk.</p>
         <p>
-          Aby zapisać dziecko do grupy prosimy o kontakt telefoniczny. Niezbędne jest przeprowadzenia krótkiego wywiadu, oraz przypisania do odpowiedniej grupy
-          <br />pod numer tel. 509 203 761
-          <br />lub wysłać maila na biuro@akademiapamiecigdynia.pl a oddzwonimy.
+          Masz pytania zadzwoń
+          <a class="content__link" href="tel:509203761">509 203 761</a>
         </p>
-        <nuxt-link
-          to="/dzieci/gdzie-jestesmy"
-          class="button button--ghost button--ghost--dark_violet"
-        >Gdzie jesteśmy</nuxt-link>
       </section>
     </transition>
   </div>
@@ -39,6 +35,9 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  .content__link {
+    color: $dark_blue;
+  }
   p {
     margin-top: 40px;
     max-width: 80%;

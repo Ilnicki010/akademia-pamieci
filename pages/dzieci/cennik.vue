@@ -82,7 +82,7 @@ export default {
       grid-area: 1 / 1 / 2 / 6;
       background: $rose;
       &::after {
-        content: '1900 zł';
+        content: '1990 zł';
         position: absolute;
         bottom: -40%;
         font-size: 10rem;
@@ -95,7 +95,7 @@ export default {
     .ofert--two {
       grid-area: 2 / 1 / 3 / 3;
       &::after {
-        content: '720 zł';
+        content: '248,75 zł';
         position: absolute;
         bottom: -25%;
         font-size: 7rem;
@@ -108,7 +108,7 @@ export default {
     .ofert--three {
       grid-column: 1 / 6;
       &::after {
-        content: '240 zł';
+        content: '248,75 zł';
         position: absolute;
         bottom: -25%;
         font-size: 7rem;
@@ -126,7 +126,7 @@ export default {
     .ofert--five {
       grid-area: 4 / 1 / 4 / 6;
       &::after {
-        content: '70 zł';
+        content: '90 zł';
         position: absolute;
         bottom: -25%;
         font-size: 7rem;
@@ -144,7 +144,7 @@ export default {
     }
     .ofert--six {
       &::after {
-        content: '40 zł';
+        content: '50 zł';
         position: absolute;
         bottom: -25%;
         font-size: 7rem;
