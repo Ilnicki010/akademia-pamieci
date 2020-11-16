@@ -92,6 +92,12 @@ export default {
   /*
    ** Nuxt.js modules
    */
+  modules: ['nuxt-facebook-pixel-module'],
+  facebook: {
+    /* module options */
+    pixelId: '288177178840337',
+    autoPageView: true
+  },
   /*
    ** Build configuration
    */

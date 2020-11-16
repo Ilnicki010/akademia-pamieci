@@ -11,7 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.8.1"
+    "nuxt": "^2.8.1",
+    "nuxt-facebook-pixel-module": "^1.5.0"
   },
   "devDependencies": {
     "eslint-config-prettier": "^4.1.0",
