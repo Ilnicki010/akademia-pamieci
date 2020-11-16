@@ -1,13 +1,13 @@
 const webpack = require('webpack')
 export default {
-
   mode: 'universal',
   /*
    ** Headers of the page
    */
   head: {
     title: process.env.npm_package_name || '',
-    meta: [{
+    meta: [
+      {
         charset: 'utf-8'
       },
       {
@@ -20,15 +20,20 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }]
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      }
+    ]
   },
   webfontloader: {
     google: {
-      families: ['Josefin+Sans:400,700&display=swap', 'Open+Sans:300,400&display=swap']
+      families: [
+        'Josefin+Sans:400,700&display=swap',
+        'Open+Sans:300,400&display=swap'
+      ]
     }
   },
   loading: {
@@ -37,9 +42,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [
-    '@/assets/style/global.scss'
-  ],
+  css: ['@/assets/style/global.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -47,22 +50,25 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    'nuxt-webfontloader',
-  ],
+  modules: ['nuxt-webfontloader', 'nuxt-facebook-pixel-module'],
+  facebook: {
+    /* module options */
+    pixelId: '288177178840337',
+    autoPageView: true
+  },
   /*
    ** Build configuration
    */
   build: {
-    extend: (config) => {
-      const svgRule = config.module.rules.find(rule => rule.test.test('.svg'));
+    extend: config => {
+      const svgRule = config.module.rules.find(rule => rule.test.test('.svg'))
 
-      svgRule.test = /\.(png|jpe?g|gif|webp)$/;
+      svgRule.test = /\.(png|jpe?g|gif|webp)$/
 
       config.module.rules.push({
         test: /\.svg$/,
-        loader: 'vue-svg-loader',
-      });
-    },
+        loader: 'vue-svg-loader'
+      })
+    }
   }
 }

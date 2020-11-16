@@ -13,6 +13,7 @@
   "dependencies": {
     "mapbox-gl": "^1.1.1",
     "nuxt": "^2.8.1",
+    "nuxt-facebook-pixel-module": "^1.5.0",
     "nuxt-webfontloader": "^1.1.0",
     "vue-mapbox": "^0.4.1",
     "vue2-gmap-custom-marker": "^5.5.4"
