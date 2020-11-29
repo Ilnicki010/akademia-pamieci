@@ -44,7 +44,6 @@ export default {
     }
   }
   .footer {
-    position: absolute;
     left: $padding;
     bottom: 30px;
   }

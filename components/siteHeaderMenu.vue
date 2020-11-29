@@ -72,13 +72,21 @@
             </li>
           </ul>
         </li>
+
         <li>
           <a
             href="https://www.facebook.com/akademiapamiecigdynia/"
             target="_blank"
             rel="noreferrer"
-            class="button button--ghost button--ghost--dark_blue news"
+            class="button"
             >Aktualności</a
+          >
+        </li>
+        <li>
+          <nuxt-link
+            class="button button--ghost button--ghost--dark_blue news"
+            to="/sklep"
+            >Sklep</nuxt-link
           >
         </li>
       </ul>
@@ -240,7 +248,7 @@ export default {
   .menu-btn {
     display: none;
     &:checked ~ .menu {
-      max-height: 500px;
+      max-height: 600px;
     }
     &:checked ~ .menu-icon .navicon {
       background: transparent;
