@@ -2,7 +2,7 @@
   <transition name="slide-down">
     <header v-if="loaded" class="header">
       <nuxt-link to="/" class="logo">
-        <img src="@/assets/images/logo.jpg" alt="Przejdź do strony głównej" />
+        <img src="@/assets/images/logo.png" alt="Przejdź do strony głównej" />
       </nuxt-link>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn">
