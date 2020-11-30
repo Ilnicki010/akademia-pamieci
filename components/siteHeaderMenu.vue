@@ -134,7 +134,6 @@ export default {
 .header {
   background: $white;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-  position: fixed;
   width: 100%;
   z-index: 3;
   .logo {
@@ -248,7 +247,7 @@ export default {
   .menu-btn {
     display: none;
     &:checked ~ .menu {
-      max-height: 600px;
+      max-height: initial;
     }
     &:checked ~ .menu-icon .navicon {
       background: transparent;

@@ -28,7 +28,7 @@ export default {
 @import '@/assets/style/vars.scss';
 .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   overflow: hidden;
   position: relative;
