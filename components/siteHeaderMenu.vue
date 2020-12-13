@@ -72,7 +72,11 @@
             </li>
           </ul>
         </li>
-
+        <li>
+          <nuxt-link class="button" to="/kalendarz-kursow"
+            >Kalendarz kursów</nuxt-link
+          >
+        </li>
         <li>
           <a
             href="https://www.facebook.com/akademiapamiecigdynia/"
@@ -313,7 +317,6 @@ export default {
           margin: 0 10px;
           border-radius: $radius;
           font-family: 'Open Sans', sans-serif;
-          width: 200px;
           text-align: center;
           position: relative;
           &:hover ~ .submenu,
@@ -328,12 +331,12 @@ export default {
           }
           &::after {
             content: '+';
-            position: absolute;
-            right: 40px;
+            margin-left: 10px;
           }
         }
 
         .submenu {
+          z-index: 999;
           position: absolute;
           top: 6vh;
           margin: auto;
