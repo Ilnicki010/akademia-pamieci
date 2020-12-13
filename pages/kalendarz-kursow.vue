@@ -1,7 +1,7 @@
 <template>
   <main class="wrapper">
     <h1>KALENDARZ KURSÓW</h1>
-    <div id="embedTable" data-embedtableid="283563335606075904"></div>
+    <div data-embedtableid="283563335606075904"></div>
     <contact-info class="footer" />
   </main>
 </template>

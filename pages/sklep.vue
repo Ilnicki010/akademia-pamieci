@@ -1,7 +1,7 @@
 <template>
   <main class="wrapper">
     <h1>SKLEP</h1>
-    <div id="embedTable" data-embedtableid="283545070575026690"></div>
+    <div data-embedtableid="283545070575026690"></div>
     <contact-info class="footer" />
   </main>
 </template>
