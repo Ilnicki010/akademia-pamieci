@@ -1,7 +1,7 @@
 <template>
   <div class="aboutLessonsWrapper">
     <transition name="slide-up">
-      <section v-if="loaded">
+      <section>
         <header class="siteHeader">
           <h1>O ZAJĘCIACH</h1>
           <p>
@@ -107,15 +107,7 @@
 
 <script>
 export default {
-  layout: 'singe-page',
-  data() {
-    return {
-      loaded: false
-    }
-  },
-  mounted() {
-    this.loaded = true
-  }
+  layout: 'singe-page'
 }
 </script>
 

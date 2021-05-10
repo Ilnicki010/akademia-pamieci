@@ -1,5 +1,5 @@
 <template>
-  <main v-if="loaded" class="homeWrapper">
+  <main class="homeWrapper">
     <section class="ctaSection">
       <div class="content">
         <h1>
@@ -37,15 +37,7 @@ import ctaButton from '@/components/ctaButton'
 import siteHeaderMenu from '@/components/siteHeaderMenu'
 import assetIcon from '@/assets/svg/asset.svg'
 export default {
-  components: { contactInfo, siteHeaderMenu, assetIcon, ctaButton },
-  data() {
-    return {
-      loaded: false
-    }
-  },
-  mounted() {
-    this.loaded = true
-  }
+  components: { contactInfo, siteHeaderMenu, assetIcon, ctaButton }
 }
 </script>
 

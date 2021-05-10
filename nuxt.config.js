@@ -88,7 +88,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: '~plugins/et.js', mode: 'client' }],
   /*
    ** Nuxt.js modules
    */

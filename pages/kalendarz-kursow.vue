@@ -12,10 +12,7 @@ import contactInfo from '@/components/contactInfo'
 export default {
   components: { siteHeaderMenu, contactInfo },
   mounted() {
-    let etScript = document.createElement('script')
-    etScript.setAttribute('src', 'https://scripts.embedtables.com/script.js')
-    etScript.async = true
-    document.head.appendChild(etScript)
+    this.$initEt()
   }
 }
 </script>

@@ -73,9 +73,7 @@
           </ul>
         </li>
         <li>
-          <nuxt-link class="button" to="/kalendarz-kursow"
-            >Kalendarz kursów</nuxt-link
-          >
+          <a class="button" href="/kalendarz-kursow">Kalendarz kursów</a>
         </li>
         <li>
           <a
@@ -87,10 +85,10 @@
           >
         </li>
         <li>
-          <nuxt-link
+          <a
             class="button button--ghost button--ghost--dark_blue news"
-            to="/sklep"
-            >Sklep</nuxt-link
+            href="/sklep"
+            >Sklep</a
           >
         </li>
       </ul>
