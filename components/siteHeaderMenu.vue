@@ -23,9 +23,6 @@
               >
             </li>
             <li>
-              <nuxt-link class="item" to="/dorosli/cennik">Cennik</nuxt-link>
-            </li>
-            <li>
               <nuxt-link class="item" to="/dorosli/zapisy">Zapisy</nuxt-link>
             </li>
           </ul>
@@ -46,9 +43,6 @@
             <li>
               <nuxt-link class="item" to="/seniorzy/zapisy">Zapisy</nuxt-link>
             </li>
-            <li>
-              <nuxt-link class="item" to="/seniorzy/cennik">Cennik</nuxt-link>
-            </li>
           </ul>
         </li>
         <li>
@@ -67,13 +61,15 @@
             <li>
               <nuxt-link class="item" to="/dzieci/zapisy">Zapisy</nuxt-link>
             </li>
-            <li>
-              <nuxt-link class="item" to="/dzieci/cennik">Cennik</nuxt-link>
-            </li>
           </ul>
         </li>
         <li>
           <a class="button" href="/kalendarz-kursow">Kalendarz kursów</a>
+        </li>
+        <li>
+              <nuxt-link to="/cennik" class="button"
+                >Cennik</nuxt-link
+              >
         </li>
         <li>
           <a
